@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    background: url("innova.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}   
+
+main p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(245,6,54);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    font-size: 10px;
+}
+
